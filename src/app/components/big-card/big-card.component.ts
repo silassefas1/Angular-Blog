@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-big-card',
   imports: [],
   templateUrl: './big-card.component.html',
-  styleUrl: './big-card.component.css'
+  styleUrls: ['./big-card.component.css', './responsive-big-card.component.css']
 })
 export class BigCardComponent {
 

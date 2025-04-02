@@ -1,0 +1,16 @@
+@media screen and (max-width:700px){
+	menu-bar__container{
+		width: 100%;
+	}
+
+	.menu-bar__container > ul{
+		margin-top: 1%;
+		justify-content: center;
+		list-style: none;
+	}
+
+	.menu-bar__container > ul > li{
+		margin-left: 10px;
+	}
+
+}

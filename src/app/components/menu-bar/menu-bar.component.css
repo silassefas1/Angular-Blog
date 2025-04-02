@@ -4,7 +4,12 @@
 	align-items: center;
 }
 
-.menu-bar__container > ul>li{
-	margin-right: 20px;
+.menu-bar__container > ul{
+	margin-top: 1%;
+	justify-content: center;
 	list-style: none;
+}
+
+.menu-bar__container > ul > li{
+	margin-left: 10px;
 }
