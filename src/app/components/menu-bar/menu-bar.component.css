@@ -1,7 +1,7 @@
 .menu-bar__container > ul{
 	display: flex;
 	flex-direction: row;
-
+	align-items: center;
 }
 
 .menu-bar__container > ul>li{
