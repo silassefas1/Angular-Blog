@@ -1,13 +1,13 @@
 .small-card__container{
-	width: 500px;
-
+	width: auto;
+	margin-top: 20px;
 }
 
 .small-card__photo > img{
-	width: 200px;
+	width: auto;
 	min-width: 200px;
 	margin-right: 20px;
-	height: 200px;
+	height: auto;
 }
 
 .small-card__title{
