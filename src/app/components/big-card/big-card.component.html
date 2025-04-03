@@ -3,18 +3,20 @@
 		<img
 			src= "{{bigCardPhotoCover}}"
 			alt=""
-			srcset="">
+			srcset=""
+			>
+
 	</div>
 	<div class="big-card__title">
 		<h1>
-			<a href="google.com/images">
+			<a [routerLink] = "['/content', id]">
 				{{bigCardCardTitle}}
 			</a>
 		</h1>
 	</div>
 	<div class="big-card__description">
 		<p>
-			<a href="">
+			<a [routerLink] = "['/content', id]">
 				{{bigCardCardDescription}}
 			</a>
 		</p>

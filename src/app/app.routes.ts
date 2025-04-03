@@ -3,13 +3,13 @@ import { NgModule } from '@angular/core';  // Removido import desnecessário de 
 import { HomeComponent } from './pages/home/home.component';
 import { ContentComponent } from './pages/content/content.component';
 
-export const routes: Routes = [ 
+export const routes: Routes = [
 	{
 		path: '',
 		component: HomeComponent
 	},
 	{
-		path: 'content',
+		path: 'content/:id',
 		component: ContentComponent
 	}
 ];
@@ -18,4 +18,4 @@ export const routes: Routes = [
 	imports: [RouterModule.forRoot(routes)],
 	exports: [RouterModule]
 })
-export class AppRoutingModule {} 
+export class AppRoutingModule {}

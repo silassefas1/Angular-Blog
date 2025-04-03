@@ -1,39 +1,71 @@
-.container__content{
+.container__content {
 	width: 100%;
 	height: 100%;
-
 	display: flex;
 	flex-direction: column;
-
 	align-items: center;
 	justify-content: center;
-
 	overflow: hidden;
+	padding: 20px;
+	gap: 15px;
 }
 
-
-
-.content__cover > img{
-	margin-top: 10px;
+.content__cover > img {
+	min-height: 300px;
+	min-width: 300px;
 	display: block;
-	width: 90vw;
+	width: 90%;
+	max-width: 800px;
 	height: auto;
-	margin-left: 80px;
-	margin-right: 80px;
+	max-height: 500px;
+	margin: 10px auto;
 	border-radius: 15px;
 	border: 2px solid gray;
-	object-fit: cover;
+	object-fit: contain;
 }
 
-.content__title{
+.content__title {
 	margin-top: 10px;
+	text-align: center;
 }
 
-.content__description{
-	margin:20px;
+.content__description {
+	margin: 20px;
 	text-align: justify;
-	column-count: 3;
+	column-count: 2;
 	column-gap: 20px;
+}
 
+/* Novo: Ajuste para telas menores */
+@media (max-width: 1024px) {
+	.content__description {
+			column-count: 2;
+	}
+}
+
+@media (max-width: 768px) {
+	.content__description {
+			column-count: 1;
+	}
+}
+
+.content__botao-voltar {
+	display: flex;
+	justify-content: center;
+	width: 100%;
 
 }
+
+.content__botao-voltar > button,a {
+	padding: 10px 20px;
+	font-size: 1rem;
+	background-color: #444;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+
+

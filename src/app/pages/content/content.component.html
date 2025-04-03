@@ -1,25 +1,18 @@
 <div class="container__content">
 	<div class="content__cover">
-		<img src="https://t2.tudocdn.net/367451?w=1920" alt="">
+		<img src="{{ contentPhotoCover }}" alt="">
 	</div>
 	<hr>
 	<div class="content__title">
-		<h1>Capitã Marvel resgata Tony Stark do espaço em operação heroica</h1>
+		<h1>{{ contentTitle }}</h1>
 	</div>
-	
+
 	<div class="content__description">
-		<p>
-			Em uma operação digna dos maiores feitos heróicos, a Capitã Marvel, Carol Danvers, resgatou o bilionário e vingador Tony Stark de uma morte iminente no espaço profundo. Stark, dado como desaparecido após os eventos catastróficos que culminaram na dizimação de metade da vida no universo, foi encontrado vagando sem direção em uma nave danificada e com suprimentos praticamente esgotados.
-			
-			A missão de resgate aconteceu após um alerta da Nebulosa, que também estava a bordo da nave. Graças à localização precisa fornecida pelos aliados dos Vingadores na Terra, Danvers foi capaz de atravessar galáxias e encontrar Stark antes que fosse tarde demais. O gênio, filantropo e playboy estava em estado crítico, debilitado pela fome e pela falta de oxigênio, mas conseguiu se recuperar após receber atendimento médico na base dos Vingadores.
-			
-			Ao pousar na Terra, Stark foi recepcionado pelos heróis sobreviventes e, visivelmente emocionado, agradeceu a Danvers pelo salvamento. "Eu achei que ninguém viria. Já estava pronto para me despedir. Mas acho que heróis fazem isso, né? Salvam uns aos outros", disse Stark, ainda fraco, mas com o habitual tom sarcástico.
-			
-			A chegada de Tony Stark à Terra reacendeu as esperanças de um contra-ataque contra as forças de Thanos. Com o conhecimento e a inteligência do Homem de Ferro de volta ao time, os Vingadores se preparam para uma nova estratégia em busca de justiça e redenção.
-			
-			Mais detalhes sobre o estado de Stark e os próximos passos dos heróis serão divulgados conforme a equipe dos Vingadores se reunir novamente. Fique ligado para mais atualizações dessa história que pode definir o futuro do universo.
-			
-			</p>
+		<p> {{contentDescription}}</p>
+
 	</div>
 
 </div>
+<footer class="content__botao-voltar">
+	<button><a [routerLink] = "['']"> <<< Voltar </a></button>
+</footer>

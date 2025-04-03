@@ -6,8 +6,11 @@
 	color: white;
 	font-family: Georgia, 'Times New Roman', Times, serif;
 	height: auto;
+	text-align: justify;
 }
 
 a{
 	text-decoration: none;
 }
+
+
